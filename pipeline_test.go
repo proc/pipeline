@@ -48,5 +48,5 @@ func TestPipeline(t *testing.T) {
 	assert.Equal(t, "the next stage", s)
 	assert.Equal(t, "tee", x)
 	assert.Equal(t, "zee", z)
-	assert.Equal(t, 6, len(hook.Entries))
+	assert.Equal(t, 8, len(hook.Entries))
 }
